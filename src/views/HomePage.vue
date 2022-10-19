@@ -1,21 +1,9 @@
 <template>
-  <ion-page>
-    <ion-header :translucent="true">
-      <ion-toolbar>
-        <ion-title>Blank</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    
+  <ion-page>    
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Blank</ion-title>
-        </ion-toolbar>
-      </ion-header>
-    
+      <h1 class="text-center mt-24">Liste des articles</h1>    
       <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        <ion-button href='/comments'>Commencer</ion-button>
       </div>
     </ion-content>
   </ion-page>
@@ -29,10 +17,7 @@ export default defineComponent({
   name: 'HomePage',
   components: {
     IonContent,
-    IonHeader,
-    IonPage,
-    IonTitle,
-    IonToolbar
+    IonPage
   }
 });
 </script>
