@@ -1,0 +1,7 @@
+{
+  "name": "commentap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
